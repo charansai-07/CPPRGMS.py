@@ -1,0 +1,8 @@
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        already=[]
+        l=list(str(n))
+        if n==1:
+            return True
+        sum1=0
+        while sum1!=1:
