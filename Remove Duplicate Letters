@@ -8,4 +8,4 @@ class Solution:
                 while (result and ch < result[-1] and i < rindex[result[-1]]):
                     result.pop()
                 result.append(ch)
-            return ''.join(result)
+        return ''.join(result)
